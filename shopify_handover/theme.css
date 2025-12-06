@@ -1,0 +1,76 @@
+/* 
+   Oxygen Theme - Design Tokens & Base Styles
+   Use this file to configure your Shopify Theme's CSS or Liquid settings.
+*/
+
+:root {
+  /* Color Palette */
+  --color-background: #17201b; /* Dark Green/Black */
+  --color-foreground: #5ac65e; /* Fresh Green */
+  
+  --color-card: #1c2621; /* Slightly lighter than background */
+  --color-card-foreground: #5ac65e;
+  
+  --color-primary: #f5f5dc; /* Beige CTA */
+  --color-primary-foreground: #17201b;
+  
+  --color-border: #26332b;
+  
+  /* Typography */
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  
+  /* Spacing & Layout */
+  --radius-sm: 0.5rem;  /* 8px */
+  --radius-md: 0.75rem; /* 12px */
+  --radius-lg: 1rem;    /* 16px */
+  --radius-xl: 1.5rem;  /* 24px */
+}
+
+/* Base Typography */
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--color-foreground); /* Or White for hero sections */
+}
+
+/* Button Component Style */
+.button-primary {
+  background-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+  border-radius: 9999px; /* Full Pill */
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+
+.button-primary:hover {
+  background-color: #ffffff;
+}
+
+/* Card Component Style */
+.product-card {
+  background-color: transparent;
+  border: none;
+  overflow: hidden;
+}
+
+.product-card-image-container {
+  background-color: var(--color-card);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  position: relative;
+  aspect-ratio: 4/5;
+}

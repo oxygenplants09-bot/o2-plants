@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oxygen - Shopify Reference</title>
+    <link rel="stylesheet" href="theme.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Outfit:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Minimal layout CSS for this reference file */
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        .hero { position: relative; height: 90vh; display: flex; align-items: center; overflow: hidden; }
+        .hero-content { position: relative; z-index: 10; max-width: 600px; }
+        .hero h1 { font-size: 4rem; line-height: 1.1; margin-bottom: 20px; color: white; }
+        .hero p { font-size: 1.25rem; color: #ccc; margin-bottom: 30px; }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; }
+        
+        /* Glassmorphism Nav */
+        nav { position: fixed; top: 0; width: 100%; padding: 20px 0; z-index: 100; }
+        nav.scrolled { background: rgba(23, 32, 27, 0.9); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .nav-inner { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Outfit'; font-weight: 700; font-size: 1.5rem; color: var(--color-foreground); display: flex; gap: 10px; align-items: center; text-decoration: none; }
+        .dot { width: 12px; height: 12px; background: var(--color-foreground); border-radius: 50%; }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="container nav-inner">
+            <a href="#" class="logo"><span class="dot"></span> Oxygen</a>
+            <div>
+                <a href="#" style="color: var(--color-foreground); text-decoration: none; margin-left: 20px; font-weight: 500;">Shop</a>
+                <a href="#" style="color: var(--color-foreground); text-decoration: none; margin-left: 20px; font-weight: 500;">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Background would be the image -->
+        <div style="position: absolute; inset: 0; background: #17201b; z-index: 0;"></div> 
+        
+        <div class="container">
+            <div class="hero-content">
+                <span style="display: inline-block; padding: 6px 16px; border-radius: 50px; background: rgba(90, 198, 94, 0.1); color: #5ac65e; border: 1px solid rgba(90, 198, 94, 0.2); margin-bottom: 24px; font-size: 0.9rem; font-weight: 500;">Eco-Friendly Living</span>
+                <h1>Fight Pollution, <br><span style="color: #5ac65e">Breathe Better.</span></h1>
+                <p>Transform your indoor environment with our curated collection of air-purifying plants. Healthier homes start with cleaner air.</p>
+                <a href="#" class="button-primary">Shop Air-Purifying Plants</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Grid Section -->
+    <section style="padding: 80px 0;">
+        <div class="container">
+            <h2 style="font-size: 2.5rem; margin-bottom: 40px;">Clean Air Curated</h2>
+            
+            <div class="grid">
+                <!-- Product Card Mockup -->
+                <div class="product-card">
+                    <div class="product-card-image-container">
+                        <!-- Image would go here -->
+                        <div style="position: absolute; top: 16px; left: 16px; background: rgba(23, 32, 27, 0.8); color: #5ac65e; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem;">Air Purifier</div>
+                    </div>
+                    <div style="padding: 16px 0;">
+                        <h3 style="margin: 0; font-size: 1.2rem;">Snake Plant</h3>
+                        <p style="margin: 4px 0; font-style: italic; color: #666;">Sansevieria Trifasciata</p>
+                        <p style="margin: 4px 0; font-weight: 500;">$35.00</p>
+                    </div>
+                </div>
+                
+                <!-- Product Card Mockup -->
+                <div class="product-card">
+                    <div class="product-card-image-container"></div>
+                    <div style="padding: 16px 0;">
+                        <h3 style="margin: 0; font-size: 1.2rem;">Peace Lily</h3>
+                        <p style="margin: 4px 0; font-style: italic; color: #666;">Spathiphyllum</p>
+                        <p style="margin: 4px 0; font-weight: 500;">$42.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Oxygen Theme Settings",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Colors"
+      },
+      {
+        "type": "color",
+        "id": "color_background",
+        "label": "Background",
+        "default": "#17201b"
+      },
+      {
+        "type": "color",
+        "id": "color_text",
+        "label": "Text / Accent Green",
+        "default": "#5ac65e"
+      },
+      {
+        "type": "color",
+        "id": "color_primary_button",
+        "label": "Primary Button",
+        "default": "#f5f5dc"
+      },
+      {
+        "type": "color",
+        "id": "color_primary_button_text",
+        "label": "Primary Button Text",
+        "default": "#17201b"
+      },
+      {
+        "type": "color",
+        "id": "color_card_background",
+        "label": "Card Background",
+        "default": "#1a241f"
+      },
+      {
+        "type": "header",
+        "content": "Typography"
+      },
+      {
+        "type": "font_picker",
+        "id": "type_header_font",
+        "label": "Heading Font",
+        "default": "outfit_n7"
+      },
+      {
+        "type": "font_picker",
+        "id": "type_body_font",
+        "label": "Body Font",
+        "default": "dm_sans_n4"
+      },
+      {
+        "type": "header",
+        "content": "Layout"
+      },
+      {
+        "type": "range",
+        "id": "border_radius",
+        "min": 0,
+        "max": 40,
+        "step": 2,
+        "unit": "px",
+        "label": "Corner Radius",
+        "default": 12
+      }
+    ]
+  }
+]
