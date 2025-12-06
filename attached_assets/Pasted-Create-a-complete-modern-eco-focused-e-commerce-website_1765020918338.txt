@@ -1,0 +1,145 @@
+Create a complete, modern, eco-focused e-commerce website for a brand named Oxygen, a company dedicated to fighting pollution by providing air-purifying, anti-pollution indoor plants. The website should feel natural, clean, and mission-driven—reflecting our belief that healthier homes start with cleaner air.
+
+Brand Essence
+
+Oxygen is a sustainable plant brand that promotes pollution-free living through air-purifying plants. The design should communicate freshness, breathability, environmental responsibility, and calm. The site should instantly convey that we help people breathe cleaner air through nature.
+
+Design Requirements
+
+Use the following brand colors throughout the theme:
+
+Background color: #17201b
+
+Text color: #5ac65e
+
+Call-to-action (button) color: #f5f5dc
+
+The overall vibe should be:
+
+Clean and minimal yet expressive
+
+Nature-driven
+
+Soft shadows and smooth rounded shapes
+
+Organic and modern
+
+Airy and refreshing
+
+Use plenty of spacing, soft transitions, and a light, breathable visual feeling.
+
+Website Structure
+
+Create the following pages/sections:
+
+1. Home Page
+
+Hero section with a bold mission statement like:
+“Fight Pollution, Breathe Better — Bring Home Anti-Pollution Plants.”
+
+Background visuals of indoor plants with soft gradients.
+
+A featured product grid (air-purifying plants).
+
+Section explaining how plants remove toxins (simple infographic style).
+
+“Why Oxygen?” section highlighting:
+
+Air purification
+
+Sustainable sourcing
+
+Eco-friendly pots
+
+Cleaner indoor environments
+
+Testimonials section.
+
+Call-to-action: “Shop Air-Purifying Plants” using CTA color.
+
+2. Shop / Products Page
+
+A clean grid of plant products.
+
+Hover effects showing brief benefits (e.g., “Removes toxins,” “Improves air quality”).
+
+Filters: price, light requirement, size, purification strength.
+
+Product cards following brand colors.
+
+3. Product Detail Page
+
+Each product page should include:
+
+Large plant image
+
+Description focusing on air-purifying benefits
+
+Care instructions
+
+Pollution-reduction level
+
+“Perfect for homes, offices, and pollution-heavy environments"
+
+Add to cart button in CTA color
+
+4. About Us Page
+
+Tell the story of Oxygen, highlighting:
+
+Our mission to fight pollution using nature
+
+Commitment to sustainability
+
+The environmental impact of keeping indoor plants
+
+How Oxygen plants help create toxin-free indoor spaces
+
+5. Contact Page
+
+Clean layout
+
+Simple contact form
+
+Social links
+
+Address & email
+
+6. Navigation & Footer
+
+Sticky header with brand logo and links
+
+Footer with:
+
+Quick links
+
+Social icons
+
+Small sustainability statement:
+“Every plant you bring home helps clean the air we breathe.”
+
+Tone & Copywriting Style
+
+Friendly, calming, natural, and inspiring
+
+Focus on environmental awareness & health
+
+Clear, purposeful copy
+
+Functionality
+
+Responsive design
+
+Add-to-cart & checkout flow
+
+Search bar
+
+Product category filters
+
+Smooth animations
+
+Clean product management layout
+
+Overall Goal
+
+Make the website feel like a breath of fresh air, where customers understand instantly that Oxygen stands for clean air, anti-pollution, sustainability, and nature-powered wellness.
